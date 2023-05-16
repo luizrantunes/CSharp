@@ -9,14 +9,15 @@ namespace Aula07
             Console.WriteLine("Que horas são?");
             int horas = int.Parse(Console.ReadLine());
 
-            if (horas > 5 && horas < 12)
-            {
+            if (horas > 5 && horas < 12) {
                 Console.WriteLine("Bom dia!");
-            } else if (horas > 12 && horas < 18) {
+            }
+            else if (horas > 12 && horas < 18) {
                     Console.WriteLine("Boa tarde!");
-            } else {
+            }
+            else {
                     Console.WriteLine("Boa noite!");
-                }
+            }
         }
     }
 }
